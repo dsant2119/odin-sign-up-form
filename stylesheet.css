@@ -19,7 +19,7 @@
 }
 
 body {
-  background-color: black;
+  background-color: rgb(10, 10, 10);
   min-height: 100vh;
   margin: 0;
 }
@@ -28,23 +28,59 @@ body {
   display: flex;
   min-height: 100vh;
   background-color: white;
-  margin: 0em 10em;
+  margin: 0em 13em;
 }
 
-div.one {
-  flex: 1 1 auto;
+div.left-col {
+  flex: 1 0 auto;
   background-image: url(./resources/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
+  min-width: 600px;
 }
 
-div.two {
+div.right-col {
+  display: flex;
+  flex-direction: column;
   flex: 2 1 auto;
-  background-color: white;
+  background-color: rgb(251, 251, 251);
   border: 1px solid black;
 }
 
-div.icon {
-  font: Norse;
-  background-color: rgb(0, 0, 0 / 50%);
+div.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: bold 140px "Norse";
+  background-color: rgb(0 0 0 / 50%);
+  min-height: 200px;
   color: white;
+  margin-top: 250px;
+  padding: 7px 80px 7px 80px;
+}
+
+.odin-icon {
+  width: 125px;
+  height: auto;
+}
+
+div.row-one {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  justify-content: center;
+  font: bold 30px "Arial";
+  padding-left: 50px;
+  padding-right: 100px;
+  min-height: 465px;
+}
+
+div.row-two {
+  background-color: white;
+  flex: 1 1 auto;
+  box-shadow: 7px 5px 9px rgba(0, 0, 0, 0.195);
+}
+
+div.row-three {
+  flex: 1 1 auto;
+  align-items: center;
 }
