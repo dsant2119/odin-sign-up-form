@@ -18,6 +18,21 @@
   font-display: swap;
 }
 
-div {
-  font: "Norse", monospace;
+body {
+  background-color: black;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+  min-height: 100vh;
+  background-color: white;
+  margin: 0em 10em;
+}
+
+#hero {
+  background-image: url(./resources/halie-west-25xggax4bSA-unsplash.jpg);
 }
