@@ -36,6 +36,7 @@ div.left-col {
   background-image: url(./resources/halie-west-25xggax4bSA-unsplash.jpg);
   background-size: cover;
   min-width: 600px;
+  align-items: center;
 }
 
 div.title {
@@ -48,6 +49,16 @@ div.title {
   color: white;
   margin-top: 250px;
   padding: 7px 80px 7px 80px;
+}
+
+.left-col p {
+  font: 100 10px "Arial";
+  color: white;
+}
+
+.left-col a {
+  text-decoration: none;
+  color: white;
 }
 
 .odin-icon {
@@ -87,7 +98,7 @@ p.intro {
 div.row-two {
   background-color: white;
   flex: 1 1 auto;
-  box-shadow: 7px 5px 9px rgba(0, 0, 0, 0.195);
+  box-shadow: 7px 4px 7px rgba(0, 0, 0, 0.195);
   font: bold 30px "Arial";
 }
 
@@ -100,6 +111,7 @@ div.row-three {
   align-items: center;
   padding-left: 50px;
   padding-top: 50px;
+  font-family: "Arial";
 }
 
 .row-three button {
@@ -109,11 +121,17 @@ div.row-three {
   font-weight: bold;
   padding: 20px 50px 20px 50px;
   border-radius: 10px;
-  box-shadow: 7px 4px 9px rgba(0, 0, 0, 0.195);
+  box-shadow: 5px 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .row-three p {
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 25px;
+  font-weight: 500;
   padding-top: 20px;
+}
+
+.row-three a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #596d48;
 }
