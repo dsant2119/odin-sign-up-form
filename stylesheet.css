@@ -38,14 +38,6 @@ div.left-col {
   min-width: 600px;
 }
 
-div.right-col {
-  display: flex;
-  flex-direction: column;
-  flex: 2 1 auto;
-  background-color: rgb(251, 251, 251);
-  border: 1px solid black;
-}
-
 div.title {
   display: flex;
   align-items: center;
@@ -63,15 +55,26 @@ div.title {
   height: auto;
 }
 
+div.right-col {
+  display: flex;
+  flex-direction: column;
+  flex: 2 1 auto;
+  background-color: rgb(251, 251, 251);
+  border: 1px solid black;
+}
+
 div.row-one {
   display: flex;
   flex-direction: column;
   flex: 1 1 auto;
-  justify-content: center;
+  min-height: 465px;
+}
+
+.row-one p {
   font: bold 30px "Arial";
+  padding-top: 150px;
   padding-left: 50px;
   padding-right: 100px;
-  min-height: 465px;
 }
 
 div.row-two {
@@ -80,7 +83,22 @@ div.row-two {
   box-shadow: 7px 5px 9px rgba(0, 0, 0, 0.195);
 }
 
+.row-two p {
+  padding-left: 50px;
+}
+
 div.row-three {
   flex: 1 1 auto;
   align-items: center;
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.row-three button {
+  background-color: #596d48;
+  color: white;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 20px 50px 20px 50px;
+  border-radius: 10px;
 }
